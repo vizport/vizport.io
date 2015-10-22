@@ -1,5 +1,6 @@
-.section-container {
-	margin: 60px 15px;
+.section-container, .top-container, .bottom-container {
+	/*margin: 60px 15px;*/
+	padding: 0;
 }
 
 .grey{
@@ -10,6 +11,14 @@
 
 /*Problem*/
 .problem-image-container {
-	height: 300px;
+	height: 500px;
 	background-color: #222;
+}
+
+.section-container {
+	.top-container {
+		h1 {
+			margin-top: 40px;
+		}
+	}
 }
