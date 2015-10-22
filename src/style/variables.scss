@@ -5,3 +5,13 @@
 
 // Sizing 
 // $ padding-normal: #px
+
+
+// Font variables
+$open-sans: 'Open Sans', sans-serif;
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $open-sans;
+  font-weight: 400;
+}
