@@ -1,0 +1,26 @@
+/*
+     ___     __  ___ __  
+|__||__  /\ |  \|__ |__) 
+|  ||___/~~\|__/|___|  \ 
+*/
+header{
+
+	.header-container {
+		padding: 0;
+	}
+
+	.header-image-container {
+		height: 600px;
+		background-color: #f2f2f2;
+		position: relative;
+		margin: 0;
+	}
+
+	.header-text-container {
+		position: absolute;
+		text-align: center;
+
+	}
+}
+
+
