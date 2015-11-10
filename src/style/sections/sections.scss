@@ -19,6 +19,13 @@
 	.image-container {
 		height: 600px;
 
+		&.header {
+			/*background-color: #e2e2e2;*/
+			background: url('images/img-header.png');
+			background-size: cover;
+			background-repeat: no-repeat;
+		}		
+
 		&.first {
 			/*background-color: #e2e2e2;*/
 			background: url('images/img-problem.png');
@@ -29,6 +36,30 @@
 		&.second {
 			background: url('images/img-data.png');
 			/*background-size: cover;*/
+			background-repeat: no-repeat;
+		}
+
+		&.third {
+			background: url('images/img-sketch.png');
+			/*background-size: cover;*/
+			background-repeat: no-repeat;
+		}
+
+		&.meh {
+			background: url('images/img-prop.png');
+			/*background-size: cover;*/
+			background-repeat: no-repeat;
+		}
+
+		&.solution {
+			background: url('images/img-solution.png');
+			// background-size: cover;
+			background-repeat: no-repeat;
+		}
+
+		&.team {
+			background: url('images/img-team.png');
+			background-size: cover;
 			background-repeat: no-repeat;
 		}
 	}
@@ -46,8 +77,13 @@
 		position: absolute;
 		top: 50%;
 		height: inherit;
+
+		h4 {
+			line-height: 1.5;
+		}
 	}
 }
+
 
 
 
@@ -56,12 +92,12 @@
 }
 
 .grey-bg {
-	background-color: #4d4d4d;
+	background-color: #b3b3b3;
 }
 
-
-
-
+.green-bg {
+	background-color: #26a9ac;
+}
 
 
 
