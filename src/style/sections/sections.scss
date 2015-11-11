@@ -1,4 +1,8 @@
-.Absolute-Center {
+$break-large: 1200px;
+
+
+/*no cambies esta clase!!!!!! */
+.absolute-center {
 	  width: 70%;
 	  height: 50%;
 	  overflow: auto;
@@ -43,12 +47,22 @@
 			background: url('images/img-data.png');
 			/*background-size: cover;*/
 			background-repeat: no-repeat;
+
+		  	@media screen and (max-width: $break-large) {
+		  		background: none;
+		    	display: none;
+		  	}
 		}
 
 		&.third {
 			background: url('images/img-sketch.png');
 			/*background-size: cover;*/
 			background-repeat: no-repeat;
+
+		  	@media screen and (max-width: $break-large) {
+		  		background: none;
+		    	display: none;
+		  	}
 		}
 
 		&.meh {
