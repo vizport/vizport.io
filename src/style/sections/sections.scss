@@ -31,8 +31,8 @@ $break-large: 1200px;
 
 		&.header {
 			/*background-color: #e2e2e2;*/
-			background: url('images/img-header.png');
-			background-size: cover;
+			/*background: url('images/img-header.png');*/
+			/*background-size: cover;*/
 			background-repeat: no-repeat;
 		}		
 
@@ -153,4 +153,9 @@ $break-large: 1200px;
 			margin-top: 40px;
 		}
 	}
+}
+
+
+.goal {
+	height: 500px;
 }

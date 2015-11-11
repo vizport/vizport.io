@@ -4,8 +4,16 @@
 |  ||___/~~\|__/|___|  \ 
 */
 header{
+
+	.logo-container {
+		/*height: 300px;*/
+		/*background-color: red;*/
+		margin-top: 60px;
+		margin-bottom: 40px;
+	}
+
 	.Center-Container {
-	  background: url("images/img-header.png") no-repeat;
+	  // background: url("images/img-header.png") no-repeat;
 	  background-size: cover;
 	}
 
@@ -15,7 +23,7 @@ header{
 
 	.header-image-container {
 		height: 600px;
-		background-color: #f2f2f2;
+		background-color: #222222;
 		position: relative;
 		margin: 0;
 	}
