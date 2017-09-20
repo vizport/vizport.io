@@ -30,22 +30,22 @@ $break-large: 1200px;
 		height: 600px;
 
 		&.header {
-			/*background-color: #e2e2e2;*/
-			/*background: url('images/img-header.png');*/
-			/*background-size: cover;*/
+			background-color: #e2e2e2;
+			background: url('images/img-header.png');
+			background-size: cover;
 			background-repeat: no-repeat;
 		}		
 
 		&.first {
 			/*background-color: #e2e2e2;*/
 			background: url('images/img-problem.png');
-			/*background-size: cover;*/
+			background-size: cover;
 			background-repeat: no-repeat;
 		}
 
 		&.second {
 			background: url('images/img-data.png');
-			/*background-size: cover;*/
+			background-size: cover;
 			background-repeat: no-repeat;
 
 		  	@media screen and (max-width: $break-large) {
@@ -56,7 +56,7 @@ $break-large: 1200px;
 
 		&.third {
 			background: url('images/img-sketch.png');
-			/*background-size: cover;*/
+			background-size: cover;
 			background-repeat: no-repeat;
 
 		  	@media screen and (max-width: $break-large) {
@@ -67,13 +67,13 @@ $break-large: 1200px;
 
 		&.meh {
 			background: url('images/img-prop.png');
-			/*background-size: cover;*/
+			background-size: cover;
 			background-repeat: no-repeat;
 		}
 
 		&.solution {
 			background: url('images/img-solution.png');
-			// background-size: cover;
+			background-size: cover;
 			background-repeat: no-repeat;
 		}
 
@@ -157,5 +157,11 @@ $break-large: 1200px;
 
 
 .goal {
-	height: 500px;
+	h2{
+		text-align: center;
+		margin: 0 auto;
+		margin-top: 120px;
+		margin-bottom: 90px;
+	}
+	// height: 300px;
 }

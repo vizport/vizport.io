@@ -6,10 +6,15 @@
 header{
 
 	.logo-container {
-		/*height: 300px;*/
 		/*background-color: red;*/
 		margin-top: 60px;
 		margin-bottom: 40px;
+		text-align: center;
+
+		img{
+			height: 200px;
+			margin: 0 auto;
+		}
 	}
 
 	.Center-Container {
@@ -18,12 +23,16 @@ header{
 	}
 
 	.header-container {
+		background: url("images/img-header.png") no-repeat;
+		background-size: cover;
 		padding: 0;
+		background-color: #666;
+		background-blend-mode: multiply;
 	}
 
 	.header-image-container {
 		height: 600px;
-		background-color: #222222;
+		// background-color: #222222;
 		position: relative;
 		margin: 0;
 	}
@@ -31,6 +40,7 @@ header{
 	.header-text-container {
 		position: absolute;
 		text-align: center;
+		color: #f2f2f2;
 
 	}
 }
